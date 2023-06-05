@@ -66,4 +66,5 @@ string[] arr = CreateArray("Введите длину массива: ");
 FillArray(arr);
 PrintArray(arr);
 string [] new_arr = SortArray(arr);
+Console.Write("Отсортированный массив: ");
 PrintArray(new_arr);
